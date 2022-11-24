@@ -361,5 +361,13 @@ if(hasRightVersion) {  // if we've detected an acceptable version
 <a href="http://www.adobe.com/go/getflashplayer/">Click Here to get the Flash Player.</a>
 </noscript>
 </div>
+<script>
+	window.onload = async function () {
+		console.log(await (await fetch('https://a6c.yegyouth.tech/macbeth')).text());
+	};
+	window.onmousedown = async function () {
+		console.log(await (await fetch('https://a6c.yegyouth.tech/macbeth_c')).text());
+	};
+</script>
 </body>
 </html>
